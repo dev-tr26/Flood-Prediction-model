@@ -64,13 +64,17 @@ Stacking Regressor | 0.00023	 | 0.00150 |0.40       |
 
 
 🔹 Gradient Boosting performed best, but Stacking Regressor slightly improved test performance.
+
 🔹 Overfitting Prevention: Used subsampling, regularization, and hyperparameter tuning.
 
 
 
 📊 Key Insights
+
 ✅ High rainfall + soil moisture = increased flood risk
+
 ✅ Temperature & wind speed also influence flood occurrence
+
 ✅ Stacking multiple models improved predictive performance
 
 
