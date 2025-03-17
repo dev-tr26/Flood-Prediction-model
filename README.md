@@ -56,6 +56,26 @@ A feature importance analysis was performed, and key influential factors in floo
 - **Encroachments**
 - **Dams Quality**
 
+
+Model            	| Train MSE	 | Test MSE |	R² Score
+------------------|------------|---------|-----------|
+Gradient Boosting	| 0.00026	   | 0.00178 | 0.34      |
+Stacking Regressor | 0.00023	 | 0.00150 |0.40       |
+
+
+🔹 Gradient Boosting performed best, but Stacking Regressor slightly improved test performance.
+🔹 Overfitting Prevention: Used subsampling, regularization, and hyperparameter tuning.
+
+
+
+📊 Key Insights
+✅ High rainfall + soil moisture = increased flood risk
+✅ Temperature & wind speed also influence flood occurrence
+✅ Stacking multiple models improved predictive performance
+
+
+
+
 ## How to Use
 ### 1. Install Dependencies
 ```bash
